@@ -6,6 +6,7 @@ We sleep in if it is not a weekday or we're on vacation. Return True if we sleep
 
 my solution:
 """
+
 def sleep_in(w, v): # w for weekday and v for vacation
   if not w: # if it is not a weekday,
     return True # regardless of the value of v, we will sleep in.
