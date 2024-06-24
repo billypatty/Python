@@ -6,5 +6,5 @@ Given a string and a non-negative int n, return a larger string that is n copies
 my solution:
 """
 
-def string_times(str, n):
-  return str*int(n)
+def string_times(s, n):
+  return s*int(n)
