@@ -8,3 +8,11 @@ Return n copies of the front.
 my solution:
 """
 
+def front_times(s, n):
+  if len(s) <= 3:
+    return s*int(n)
+  else:
+    a = ''
+    for i in range(3):
+      a += s[i]
+    return a*int(n)
