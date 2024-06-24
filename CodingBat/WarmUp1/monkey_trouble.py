@@ -6,6 +6,7 @@ We are in trouble if they are both smiling or if neither of them is smiling. Ret
 
 my solution:
 """
+
 def monkey_trouble(a, b):
   if a:
     if b:
