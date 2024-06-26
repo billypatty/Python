@@ -9,9 +9,9 @@ my solution:
 """
 
 def front_times(s, n):
-  if len(s) <= 3:
+  if len(s) <= 3: # check if the word is shorter than 3 letters
     return s*int(n)
-  else:
+  else: # if it isn't,
     a = ''
     for i in range(3):
       a += s[i]
