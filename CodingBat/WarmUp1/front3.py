@@ -9,10 +9,10 @@ my solution:
 """
 
 def front3(s):
-  if len(s) <=3: # if the string is shorter than 3 letters,
-    return str*3 # return whatever
-  else: # is its longer,
-    a = '' # an empty string
-    for i in range(3): # the loop will repeat 3 times
-      a += s[i] # add the letter at index i to the initially empty string 'a'
-    return a*3 # repeat a three times
+    if len(s) <=3: # if the string is shorter than 3 letters,
+        return str*3 # return whatever
+    else: # is its longer,
+        a = '' # an empty string
+        for i in range(3): # the loop will repeat 3 times
+            a += s[i] # add the letter at index i to the initially empty string 'a'
+        return a*3 # repeat a three times
