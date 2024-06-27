@@ -8,8 +8,8 @@ my solution:
 """
 
 def not_string(str):
-  k = str.split(' ') # divide the given string from its spaces
-  if k[0] == 'not': # if the first element is 'not'
-    return str
-  else:
-    return 'not ' + str # return 'not' and the string after it, making the first word 'not'.
+    k = str.split(' ') # divide the given string from its spaces
+    if k[0] == 'not': # if the first element is 'not'
+        return str
+    else:
+        return 'not ' + str # return 'not' and the string after it, making the first word 'not'.
