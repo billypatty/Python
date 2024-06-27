@@ -9,7 +9,7 @@ my solution:
 """
 
 def near_hundred(n):
-  if abs(100-n) <= 10 or abs(200-n) <= 10: # by using 'abs', we make sure the value is correct
-    return True # for example, if n is 230, 200-230=-30 which is less than 10.
-  else: # other cases
-    return False
+    if abs(100-n) <= 10 or abs(200-n) <= 10: # by using 'abs', we make sure the value is correct
+        return True # for example, if n is 230, 200-230=-30 which is less than 10.
+    else: # other cases
+        return False
