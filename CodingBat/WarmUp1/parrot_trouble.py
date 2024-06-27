@@ -12,10 +12,10 @@ if t is False, the parrot is silent. regardless of hour, there is no trouble.
 """
 
 def parrot_trouble(t, a):
-  if t:
-    if a<7 or a>20:
-      return True
-    else:
-      return False
-  elif not t:
-    return False
+    if t:
+        if a<7 or a>20:
+            return True
+        else:
+            return False
+    elif not t:
+        return False
