@@ -8,13 +8,13 @@ my solution:
 """
 
 def monkey_trouble(a, b):
-  if a:
-    if b:
-      return True
-    elif not b:
-      return False
-  elif not a:
-    if not b:
-      return True
-    else:
-      return False
+    if a:
+        if b:
+            return True
+        elif not b:
+            return False
+    elif not a:
+        if not b:
+            return True
+        else:
+            return False
