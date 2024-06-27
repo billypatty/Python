@@ -7,9 +7,9 @@ my solution:
 """
 
 def makes10(a, b): # keep in mind that the variable names used in the function don't matter.
-  if a+b == 10: # if the sum of a and b are equal to ten,
-    return True
-  elif a == 10 or b == 10: # if either is 10,
-    return True
-  else: # other cases
-    return False
+    if a+b == 10: # if the sum of a and b are equal to ten,
+        return True
+    elif a == 10 or b == 10: # if either is 10,
+        return True
+    else: # other cases
+        return False
