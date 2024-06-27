@@ -7,4 +7,4 @@ my solution:
 """
 
 def string_times(s, n):
-  return s*int(n)
+    return s*int(n)
