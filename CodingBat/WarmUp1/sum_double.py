@@ -7,7 +7,7 @@ my solution:
 """
 
 def sum_double(a, b): # a function that sums the values according to the prompt.
-  if a==b: # if the number a and b are equal,
-    return 2*(a+b) # sum them, then multiply by two
-  else:
-    return a+b # sum them
+    if a==b: # if the number a and b are equal,
+        return 2*(a+b) # sum them, then multiply by two
+    else:
+        return a+b # sum them
