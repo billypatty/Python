@@ -1,3 +1,3 @@
-stuff i did to study. most have explanations.
+stuff i did to study and practice.
 
 if you have any questions, dm me on discord (sushismurf)
