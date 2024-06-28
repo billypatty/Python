@@ -5,7 +5,7 @@ Given 3 int values, a b c, return their sum.
 However, if one of the values is the same as another of the values, it does not count towards the sum.
 
 my solution:
-again, the solution that i initially thought of is kinda inefficient.
+i tried a few things.
 """
 
 def lone_sum(a, b, c):
