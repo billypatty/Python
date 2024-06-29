@@ -11,16 +11,13 @@ def sum13(nums):
   if len(nums) == 0:
     return 0
   else:
-    if 13 not in nums:
-      return sum(nums)
-    else:
-      count = 0
-      skip = False
-      for i in nums:
-        if i == 13:
-          skip = True
-        elif skip:
-          skip = False
-        else:
-          count += i
-      return count
+    count = 0
+    skip = False
+    for i in nums:
+      if i == 13:
+        skip = True
+      elif skip:
+        skip = False
+      else:
+        count += i
+    return count
