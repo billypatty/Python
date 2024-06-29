@@ -7,3 +7,11 @@ So for example, if b is 13, then both b and c do not count.
 
 my solution:
 """
+
+def lucky_sum(a, b, c):
+  someList = [a, b, c]
+  if 13 not in someList:
+    return a + b + c
+  else:
+    i = someList.index(13)
+    return sum(someList[:i])
