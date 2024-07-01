@@ -1,1 +1,1 @@
-solutions of the problems on [CodingBat](https://codingbat.com) 
+my solutions of the questions on [CodingBat](https://codingbat.com) 
