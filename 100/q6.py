@@ -16,7 +16,6 @@ from math import sqrt
 def seq():
     flag = 0
     while True:
-        print(flag, type(flag))
         a = input("give a comma-separated sequence of integers"
                   " (example: 1,2,3): ")
         for i in a:
@@ -24,7 +23,7 @@ def seq():
                 pass
             else:
                 flag = 1
-                print('please seek medical help')
+                print('invalid input.')
                 break
         if flag == 0:
             d = a.split(',')
