@@ -33,5 +33,5 @@ def seq():
 someList = seq()
 outList = []
 for k in someList:
-    outList.append(round(sqrt((2 * 50 * int(k)) / 30)))
-print(outList)
+    outList.append(str(round(sqrt((2 * 50 * int(k)) / 30))))
+print(','.join(outList))
