@@ -39,4 +39,4 @@ for j in sentenceSeperated:
         if j.lower() == lowerSentence[k]:
             lowerSentence[k] = j
             break
-print(lowerSentence)
+print(' '.join(lowerSentence))
