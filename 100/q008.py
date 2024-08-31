@@ -35,9 +35,9 @@ lowerWords = []
 for i in words:
     lowerWords.append(i.lower())
 lowerWords.sort()
-for j in words: # this doesn't fix inputs like 'hi,Hi,hI' - not sure how to do that
+for j in words:
     for k in range(len(lowerWords)):
         if j.lower() == lowerWords[k]:
             lowerWords[k] = j
             break
-print(lowerWords)
+print(','.join(lowerWords))
