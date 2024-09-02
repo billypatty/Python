@@ -9,4 +9,5 @@ in console.
 """
 
 def int_toStr(a):
+    print(str(a))
     return str(a)
