@@ -14,5 +14,3 @@ class circle(object):
         self.c = c
     def area(self):
         return pi*(self.c**2)
-a= circle(2)
-print(a.area())
